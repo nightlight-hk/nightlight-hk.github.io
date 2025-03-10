@@ -1,0 +1,37 @@
+body {
+    background-color: #2a2a2a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button.active {
+    background-color: #007bff;
+}
+
+#canvas {
+    border: 2px solid white;
+    background-color: #404040;
+    cursor: crosshair;
+}
+
+button.active.laser {
+    background-color: #ff0000;
+}
